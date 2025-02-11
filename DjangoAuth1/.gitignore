@@ -1,0 +1,30 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+.env/
+myenv/
+
+# Ignore environment variable files
+.env
+
+# Ignore database files
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore static and media files (if applicable)
+staticfiles/
+media/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore unnecessary system files
+.DS_Store
+Thumbs.db
